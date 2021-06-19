@@ -1,7 +1,7 @@
 #ASSIGNMENT
 
 ##AUTHOR
-<some-person>
+Abhishek
 
 ##ABOUT
-<some-text>
+This is a simple front end assignment
