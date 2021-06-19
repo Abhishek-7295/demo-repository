@@ -1,7 +1,7 @@
-##ASSIGNMENT
+## ASSIGNMENT
 
-##AUTHOR
+## AUTHOR
 Abhishek
 
-##ABOUT
+## ABOUT
 This is a simple front end assignment
