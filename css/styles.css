@@ -1,0 +1,193 @@
+
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    color:#ffffff;
+    font-family: 'Rubik', sans-serif;
+}   
+
+footer{
+    margin-top: 60vh;
+    margin-bottom: 0;
+    padding-bottom: 2em;
+    background-color: #2e2e2e;
+}
+
+h3{
+    font-size: 15px;
+}
+
+ul{
+    padding-left: 0;
+}
+
+p, li{
+    font-size: 13px;
+}
+
+li{
+    list-style-type:none;
+}
+
+.footer-section-content {
+    display: grid;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2em;
+}
+
+img{
+    padding-top: 0.4em;
+    height:10vh;
+}
+
+
+.article-1{
+    width: 20vw;
+}
+
+.article-2{
+    width: 30vw;
+}
+
+.article-3{
+    width: 30vw;
+}
+
+hr~p{
+    margin-bottom: 0;
+    padding-left: 10vw;
+    
+}
+
+hr{
+    margin-left: 10vw;
+    margin-right: 10vw; 
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+
+input[type="text"]{
+    width: 9em;
+    height: 2em;
+    border-radius: 5px;
+    border:none;
+}
+
+input[type="text"]::placeholder { 
+                  
+    text-align: center;
+}
+
+button{
+    width:9em;
+    height:2.2em;
+    position: relative;
+    bottom: 0.1em;
+    border-radius: 7px;
+    background-color:#047bfb;
+    color:#ebf3fe;
+    border: none;
+    font-weight: bolder;
+    padding-bottom: 0.4em;
+    cursor: pointer;
+}
+button:hover{
+    width:9em;
+    height:2.2em;
+    position: relative;
+    bottom: 0.1em;
+    border-radius: 7px;
+    background-color:#ebf3fe;
+    color: #047bfb;
+    border: none;
+    font-weight: bolder;
+    padding-bottom: 0.4em;
+    cursor: pointer;
+}
+
+i{
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+}
+
+/*using viewports*/
+@media (max-width:426px)
+{
+    .footer-section-content {
+        display: flex;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        flex-direction: column;
+        text-align: center;
+    }
+    li{
+        margin-left: 27vw;
+        text-align: justify;
+    }
+
+    
+    .article{
+        width: 80vw;
+    }
+
+    .article-2{
+        
+    }
+
+     .article-2 p{
+        text-align: justify;
+    }
+
+    button{
+        height: 2.2em;
+        position: relative;
+        bottom:0.2em;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px)
+{
+
+    h3{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    .footer-section-content {
+        display: grid;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 40vh 40vh;
+    }
+
+    .article-1{
+        width: 40vw;
+    }
+
+    .article-3{
+        width:50vw;
+    }
+
+    .article-3>h3 , .article-3>p, .article-3>input,.article-3>button{
+        margin-left: 20vw;
+    }
+
+    .social-media-links{
+        margin-left: 18vw;
+    }
+
+    button{
+        margin-top: 1em;
+        width:9.3em;
+    }
+ 
+}
